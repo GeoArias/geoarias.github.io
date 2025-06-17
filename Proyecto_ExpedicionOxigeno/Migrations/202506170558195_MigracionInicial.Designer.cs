@@ -7,13 +7,13 @@ namespace Proyecto_ExpedicionOxigeno.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.5.1")]
-    public sealed partial class CreateReviewTable1 : IMigrationMetadata
+    public sealed partial class MigracionInicial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateReviewTable1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(MigracionInicial));
         
         string IMigrationMetadata.Id
         {
-            get { return "202506082224291_CreateReviewTable1"; }
+            get { return "202506170558195_MigracionInicial"; }
         }
         
         string IMigrationMetadata.Source
